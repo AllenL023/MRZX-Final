@@ -46,7 +46,7 @@ if uploaded_file:
                         "参考号二": "",
                         "申报币种": "",
                         "备注": "",
-                        "货箱编号": f"{shipment}U{str(i).zfill(4)}",
+                        "货箱编号": f"{shipment}-{str(i).zfill(4)}",
                         "货箱重量(KG)": "",
                         "货箱长度(CM)": "",
                         "货箱宽度(CM)": "",
